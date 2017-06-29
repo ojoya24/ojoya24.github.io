@@ -2730,13 +2730,12 @@
 			width: calc(50% - 1.5em);
 		}
 
-		.features.style2 article {
+		.style2 article {
 			padding: 1.75em 1.75em 0.1em 1.75em ;
 			background-color: #C14E1D;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
-			0762A8
 		}
 
 			.features article:nth-child(2n) {
@@ -3417,6 +3416,24 @@
 			width: 55em;
 		}
 
+
+		.wrapper.style1 {
+			background-color: #0762A8;
+		}
+
+			.wrapper.style1:before, .wrapper.style1:after {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2307528C%3B' /%3E%3C/svg%3E");
+			}
+
+			.wrapper.style1:before {
+				box-shadow: inset 0 -1px 0 0 #0762A8, 0 1px 0 0 #0762A8;
+			}
+
+			.wrapper.style1:after {
+				box-shadow: inset 0 -1px 0 0 #0762A8, 0 1px 0 0 #0762A8;
+			}
+
+
 		.wrapper.style2 {
 			background-color: #F26322;
 		}
@@ -3434,19 +3451,19 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: #2e3141;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233d4051%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.style3:before {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+				box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 			}
 
 			.wrapper.style3:after {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+				box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 			}
 
 		.wrapper.style4 {
@@ -3541,6 +3558,14 @@
 					width: 100%;
 				}
 
+				.wrapper.spotlight .image.small {
+				border-radius: 100%;
+				margin: 0 1em 1em 0;
+				width: 20em;
+				overflow: hidden;
+				-ms-flex: 1;
+				}
+
 			.wrapper.spotlight .content {
 				width: 100%;
 				-ms-flex: 2;
@@ -3593,19 +3618,19 @@
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				background-color: #2e3141;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
+					box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -3682,8 +3707,16 @@
 
 				.wrapper.spotlight .image {
 					margin: 0 2em 2em 0;
-					width: 32em;
+					width: 30em;
 				}
+					.wrapper.spotlight .image.small {
+					border-radius: 100%;
+					margin: 0 2em 2em 0;
+					width: 15em;
+					overflow: hidden;
+					-ms-flex: 1;
+					}
+
 
 				.wrapper.spotlight:nth-child(2n - 1) .image {
 					margin: 0 0 2em 2em;
@@ -3725,6 +3758,13 @@
 					width: 19em;
 					margin: 0 1.75em 2em 0;
 				}
+					.wrapper.spotlight .image.small {
+					border-radius: 100%;
+					margin: 0 1.75em 2em 0;
+					width: 15em;
+					overflow: hidden;
+					-ms-flex: 1;
+					}
 
 				.wrapper.spotlight:nth-child(2n - 1) .image {
 					margin: 0 0 2em 1.75em;
@@ -3743,6 +3783,11 @@
 				max-width: 85%;
 				width: 12em;
 			}
+				.wrapper.spotlight .image.small {
+					margin: 0 0 1em 0 !important;
+					max-width: 70%;
+					width: 8em;
+					}
 
 		}
 
