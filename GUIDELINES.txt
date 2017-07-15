@@ -1,0 +1,5 @@
+Image Dimensions
+
+Executive board images: Any size. Length and width must be the same, however.
+Pillars of SHPE images: 600 x 300 px
+
