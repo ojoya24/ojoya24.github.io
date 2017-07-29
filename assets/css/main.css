@@ -3061,7 +3061,7 @@
 		-ms-user-select: none;
 		user-select: none;
 		-webkit-tap-highlight-color: transparent;
-		background: rgba(46, 49, 65, 0.8);
+		background: rgba(0, 0, 0, 0.5);
 		cursor: default;
 		height: 100%;
 		left: 0;
@@ -3084,7 +3084,7 @@
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: rgba(0,0,0,0.5);
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3139,9 +3139,14 @@
 					text-transform: uppercase;
 				}
 
-					#menu .links li a:hover {
-						background: #45558d;
+					#menu .links#blue li a:hover {
+						background: #07528C;
 					}
+
+					#menu .links#orange li a:hover {
+						background: #C14E1D;
+					}
+
 
 		@media screen and (max-width: 736px) {
 
